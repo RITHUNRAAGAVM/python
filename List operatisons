@@ -1,0 +1,174 @@
+
+----list  operaitons 
+
+
+mylist = ["apple" ,"banana" , "carrot"]
+            0         1          2
+
+print(mylist[0:2])  ---------apple ,carrot 
+
+
+
+
+
+
+
+find the lentght of the list ##########
+
+mylist = ["apple" ,"banana" , "carrot"]
+a = len(mylist)
+print(a)
+
+
+
+
+
+
+find the value of the lit
+###################
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+use for loop to print all list elements 
+
+
+mylist = list(("apple","car"))
+print(mylist)
+found = False
+
+
+for element in mylist:
+      if element == "cars":
+         print(element)
+         found = True
+         break
+      else:
+        print("element not foundddddd")
+        
+if not found:
+    print("element not presen")
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+print in this order index:value in the list 
+
+
+mylist = list(("apple","car", "bananan" , "carrot"))
+print(mylist[0:])
+
+
+
+
+
+
+
+
+
+
+
+
+
+if input elelment is greater than the list elements print that elemmtne 
+###############33
+mylist = list(("7","4", "2" , "3","9"))
+found = False
+
+for element in mylist:
+   if int(element) >= 8:
+       print(element)
+       found = True
+       break
+   else:
+       ("all elements are smaller than 8")
+    
+if not found:
+    print("no elemets are found")
+    
+
+
+
+
+
+
+
+
+
+
+sort thr list in as and desc order  /....why sorting  
+
+
+
+
+mylist = ["2","4","6","8","8","1","4"]
+mylist.sort()
+print(mylist)
+
+mylist.reverse()
+print(mylist)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2 lists .....serach the element in both lists
+
+
+
+
+list1 = ["2", "4", "6", "8", "8", "1", "4"]
+list2 = ["1", "4", "2", "3", "85", "12", "3"]
+element_to_search = int(input("Element to search: "))
+found = False
+
+for element in list1:
+    if int(element) == element_to_search:
+        print("Yes, the element is found on list1")
+        found = True
+        break
+
+if not found:
+    print("No, the element is not found on list1")
+
+found = False
+
+for element in list2:
+    if int(element) == element_to_search:
+        print("Yes, the element is found on list2")
+        found = True
+        break
+
+if not found:
+    print("No, the element is not found on list2")
