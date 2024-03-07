@@ -1,0 +1,83 @@
+list       arr=[12,3,3,5,3,3]
+set        arr=(1,4,3,2,6,32)
+tuple      arr={1,3,5,1,5,2} 
+dictionary arr={1: 'a', 3: ['b', 'c'], 4: 's'}
+
+
+
+creating empty list
+
+[]
+
+
+
+add some values on that empty list (dynamic array)l
+
+arr=[1,2,6,2,6,6,6]
+
+
+
+
+
+create and initialise with some elements 
+
+arr = [1,2,3,4,5,6,5]
+
+
+
+
+create a list having all data types (int ,string ,bool,
+
+arr=[1.1, "rithun", 3 , false, 'hell']
+
+
+
+create a empty dictionary 
+
+arr = {}
+
+
+store all student details 
+
+
+arr = {"name":"rithun" , "age":20 , "regno":"BCE0937" }
+
+
+nested dictionary form a parent dictinonary
+
+arr = {"name":"rithun" , "age":20 , "regno":"BCE0937" , "course" : {"coursename" : "eng", "courseid" : 123 , "coursecost": 12345.67}}
+
+
+ 
+create a list having all datat types (int ,string ,bool, dictionary 
+
+arr = [1, "hello" , 1.4 , true]
+
+
+
+
+list (dictionary )
+
+arr = [1 ,3,5,5 , {"studentdetails" : { "stu_name": "rithu"  ,  "stud_id"= "bce234" "stud_course"="eng" } ] }
+
+
+
+
+list of dicitonary (5 product dictionaries )
+
+arr = {"prod_no" :"1"   "prod_name:"bat"       "prod_id:123" "prod_cost:123.23" "prod_brand":"adidas" ,
+       "prod_no" :"2"   "prod_name:"ball"      "prod_id:123" "prod_cost:123.23" "prod_brand":"adidas" , 
+       "prod_no" :"3"   "prod_name:"stump"     "prod_id:123" "prod_cost:123.23" "prod_brand":"adidas"  , 
+       "prod_no" :"4"   "prod_name:"football"  "prod_id:123" "prod_cost:123.23" "prod_brand":"adidas"  , 
+       "prod_no" :"5"   "prod_name:"shoe"      "prod_id:123" "prod_cost:123.23" "prod_brand":"adidas"}
+
+
+
+
+creating dynamic dictionary 
+
+
+my_dict["name"] = "john"
+
+
+{check in some blogs)
