@@ -1,0 +1,65 @@
+LOOP
+
+calculate a number is greater or smaller 
+
+
+##
+no1 = int(input("enter the first  no:"))
+no2 = int(input("enter the second no:"))
+
+if no1 > no2:
+    print("first no  is greater")
+elif no2 > no1:
+    print("second no is  greater")
+else:
+    print(" both are same")
+
+
+
+
+
+
+
+search a word in a string (contains or not
+############
+str1 = input(str("give a random sentence"))
+str2 = input(str("check if a word is in that string"))
+if str2 in str1:
+    print("str2 is in str1")
+else:
+    print("str2 is not there in str1")
+
+
+
+
+- tell the postion 
+
+str1 = input(str("give a random sentence"))
+str2 = input(str("check if a word is in that string"))
+
+position = str1.find(str2)
+print("position of the object is " , position)
+
+if position == -1:
+    print("the word is not present there ")
+
+
+
+
+
+
+
+
+
+
+
+hello 
+4 ---print h to l
+
+str1 = "hello"
+print(str1[1:4])
+
+
+
+
+
