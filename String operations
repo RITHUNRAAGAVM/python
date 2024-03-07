@@ -1,0 +1,130 @@
+
+
+string operatiions
+
+
+(string reverse)
+############
+def reverse_string(s):
+    return s[::-1]
+
+str1 = input("enter a string to be reversed")
+str2 = reverse_string(str1)
+print(str2) 
+
+
+
+
+
+
+
+
+
+
+
+count the length of string 
+###########
+
+str1 = input("enter the string")
+
+a = len(str1)
+print("the lenght of the string is " , a)
+
+
+
+replace a char in a string 
+
+str1 = input("Enter the string: ")
+char_to_find = "a"
+found = False  # Initialize found flag to False
+
+for char in str1:
+    if char == char_to_find:
+        print("The character 'a' is found ")
+        found = True  # Set found flag to True when character is found
+        break  # Exit the loop once the character is found
+
+if not found:  # Check if the character is not found after the loop
+    print("The character 'a' is not found")
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+replace more than one char in a string
+
+
+
+
+
+
+
+
+
+string is immutable or not 
+yes
+
+
+
+
+
+input function 
+
+
+
+
+
+
+
+
+
+
+
+
+
+check if a string conatins a value or not ( bool,decimal )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+check the variable datatype ........if its the said datatype (type functions is instance)
+
+
+
+
+
